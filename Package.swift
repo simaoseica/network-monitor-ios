@@ -10,6 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "FNMNetworkMonitor",
+            type: .dynamic,
             targets: ["FNMNetworkMonitor"]),
     ],
     dependencies: [],
